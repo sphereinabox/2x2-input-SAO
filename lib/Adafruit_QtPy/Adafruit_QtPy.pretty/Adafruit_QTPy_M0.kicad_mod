@@ -1,0 +1,301 @@
+(footprint "Adafruit_QTPy_M0"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Footprint for the Adafruit Feather M0 RFM series of boards, e.g. https://learn.adafruit.com/adafruit-feather-m0-radio-with-rfm69-packet-radio")
+	(tags "Adafruit Feather M0 RFM")
+	(property "Reference" "REF**"
+		(at -7.62 19.05 0)
+		(layer "F.SilkS")
+		(uuid "facf8a2b-b42f-45b5-9a4a-ed6ab796745a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Adafruit_QTPy_M0"
+		(at -7.62 20.32 180)
+		(layer "F.Fab")
+		(uuid "643134ed-2546-42fc-b322-672061023cb7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5bc63aa5-0f81-4168-96e4-1aab6c14b65a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d75106d-9ce4-4153-809a-98d3d20b2b17")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6582dd3f-7216-4dd8-a0a3-1fb41032e897")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -16.51 -2.54)
+		(end 1.27 17.78)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8320940e-fbe4-42a4-a827-4feb1c9dee2e")
+	)
+	(fp_rect
+		(start -16.51 -2.54)
+		(end 1.27 17.78)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "89c22a03-cf34-498d-85ce-4296f40ae7ef")
+	)
+	(fp_rect
+		(start -11.43 -3.81)
+		(end -3.81 -2.54)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "2a909d2b-98b1-4137-8ea9-5adc3bf5ce52")
+	)
+	(fp_rect
+		(start -16.51 -2.54)
+		(end 1.27 17.78)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f26ba650-2414-467a-a949-a6b0280596bc")
+	)
+	(fp_rect
+		(start -11.43 -3.81)
+		(end -3.81 -2.54)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "b76d7cc7-fd13-4416-841c-c949e7e9c700")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -7.62 7.62 -90)
+		(layer "F.Fab")
+		(uuid "5b618954-40a8-4afa-911d-64035f84fe25")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 3.1 1.6)
+		(drill 1
+			(offset 0.6 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "21ea1e79-09c8-42f6-8695-1fd939882908")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 2.54)
+		(size 3.1 1.6)
+		(drill 1
+			(offset 0.6 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "b6b97db7-cb7d-4e67-8548-ae2e9a7c360c")
+	)
+	(pad "3" thru_hole roundrect
+		(at 0 5.08)
+		(size 3.1 1.6)
+		(drill 1
+			(offset 0.6 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "1bc04f89-dfb8-4df5-837a-29e54836b3dc")
+	)
+	(pad "4" thru_hole roundrect
+		(at 0 7.62)
+		(size 3.1 1.6)
+		(drill 1
+			(offset 0.6 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "b8283a89-9f27-4d30-8492-2ec96ad101a6")
+	)
+	(pad "5" thru_hole roundrect
+		(at 0 10.16)
+		(size 3.1 1.6)
+		(drill 1
+			(offset 0.6 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "8a2b1896-a02d-4df1-ab9b-82720b3da992")
+	)
+	(pad "6" thru_hole roundrect
+		(at 0 12.7)
+		(size 3.1 1.6)
+		(drill 1
+			(offset 0.6 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "a90dc08f-e920-4d6f-980b-ae5a96afed0d")
+	)
+	(pad "7" thru_hole roundrect
+		(at 0 15.24)
+		(size 3.1 1.6)
+		(drill 1
+			(offset 0.6 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "08aa341e-c666-4a45-90b7-af692dc7980c")
+	)
+	(pad "8" thru_hole roundrect
+		(at -15.24 15.24 180)
+		(size 3.1 1.6)
+		(drill 1
+			(offset 0.6 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "479e2521-d8fa-4343-a349-2dfd89512323")
+	)
+	(pad "9" thru_hole roundrect
+		(at -15.24 12.7 180)
+		(size 3.1 1.6)
+		(drill 1
+			(offset 0.6 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "87213d26-2aef-4da2-9426-d7e13f7c969a")
+	)
+	(pad "10" thru_hole roundrect
+		(at -15.24 10.16 180)
+		(size 3.1 1.6)
+		(drill 1
+			(offset 0.6 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "751c5cda-cb38-4015-814f-90054e76bae7")
+	)
+	(pad "11" thru_hole roundrect
+		(at -15.24 7.62 180)
+		(size 3.1 1.6)
+		(drill 1
+			(offset 0.6 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "88e6c97f-c20e-4d32-b429-20fd89140bfe")
+	)
+	(pad "12" thru_hole roundrect
+		(at -15.24 5.08 180)
+		(size 3.1 1.6)
+		(drill 1
+			(offset 0.6 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "f0035a12-3f6c-45b8-8692-33e22663de54")
+	)
+	(pad "13" thru_hole roundrect
+		(at -15.24 2.54 180)
+		(size 3.1 1.6)
+		(drill 1
+			(offset 0.6 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "627a37c0-88c9-4a80-b5c6-4d8703e3f482")
+	)
+	(pad "14" thru_hole roundrect
+		(at -15.24 0 180)
+		(size 3.1 1.6)
+		(drill 1
+			(offset 0.6 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "7c75ee04-89c2-4a58-9798-30af78a6f93e")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/Adafruit_Feather_M0_RFM.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

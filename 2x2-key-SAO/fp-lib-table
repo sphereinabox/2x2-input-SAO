@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Adafruit_QtPy")(type "KiCad")(uri "C:/Users/nwint/Documents/Github/2x2-input-SAO/lib/Adafruit_QtPy/Adafruit_QtPy.pretty")(options "")(descr ""))
+  (lib (name "Simple_Addon_v2")(type "KiCad")(uri "C:/Users/nwint/Documents/Github/2x2-input-SAO/lib/SAOv2/Simple_Addon_v2.pretty")(options "")(descr ""))
+  (lib (name "WaveShare-RP2040")(type "KiCad")(uri "C:/Users/nwint/Documents/Github/SAO/libs/WaveShare-RP2040/WaveShare.pretty")(options "")(descr ""))
+  (lib (name "Adafruit-NeoKey-1x4-PCB-KiCad")(type "KiCad")(uri "C:/Users/nwint/Documents/Github/adafruit-pcbs/Adafruit-NeoKey-1x4-PCB/Adafruit-NeoKey-1x4-PCB-KiCad/Adafruit NeoKey 1x4 QT I2C.pretty")(options "")(descr ""))
+  (lib (name "2x2-SAO")(type "KiCad")(uri "C:/Users/nwint/Documents/Github/2x2-input-SAO/lib/2x2-SAO.pretty")(options "")(descr ""))
+)

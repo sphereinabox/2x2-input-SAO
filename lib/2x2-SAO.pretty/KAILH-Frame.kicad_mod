@@ -1,0 +1,125 @@
+(footprint "KAILH-Frame"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fca21ec8-d7d4-4061-9f4e-6860bff82ac8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "KAILH-Frame"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e2a7647a-c123-4a3e-8d71-b8612288ba89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df819246-f195-4847-82ca-a5f9e52e1866")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20504ebd-9982-4334-b9d5-d559df20bb78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c776e0e8-1163-4bf1-8b8c-4a17a44a50be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -7.112 -7.112)
+		(end 7.112 7.112)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "30925a97-b5a5-4629-bbee-4ee7a08bcdee")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "860d191a-f81c-47c4-b3a9-277ca9f593b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -7.112 -7.112)
+		(size 0.762 0.762)
+		(drill 0.762)
+		(layers "*.Mask")
+		(zone_connect 0)
+		(uuid "f9840d85-51ac-4b60-9269-39a1565763ca")
+	)
+	(pad "" np_thru_hole circle
+		(at -7.112 7.112)
+		(size 0.762 0.762)
+		(drill 0.762)
+		(layers "*.Mask")
+		(zone_connect 0)
+		(uuid "6e73c084-6a91-4834-85b2-321244ea97cc")
+	)
+	(pad "" np_thru_hole circle
+		(at 7.112 -7.112)
+		(size 0.762 0.762)
+		(drill 0.762)
+		(layers "*.Mask")
+		(zone_connect 0)
+		(uuid "699438c4-21f5-448e-816b-648f945fc86c")
+	)
+	(pad "" np_thru_hole circle
+		(at 7.112 7.112)
+		(size 0.762 0.762)
+		(drill 0.762)
+		(layers "*.Mask")
+		(zone_connect 0)
+		(uuid "418e5420-079b-46f1-83e9-e9244758b8b9")
+	)
+)
