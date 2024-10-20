@@ -550,6 +550,112 @@
 			(uuid "8dd21706-e269-4270-b11e-1c742113fbce")
 		)
 	)
+	(footprint "kikit:Board"
+		(layer "F.Cu")
+		(uuid "08167371-0373-47cd-9f10-f4dc1471f623")
+		(at 178.435 31.115)
+		(descr "Mark board for extraction")
+		(property "Reference" "REF_BOTTOM"
+			(at -4.5 -5 0)
+			(layer "Dwgs.User")
+			(uuid "722c0cf3-f603-4957-b895-fade674a8f8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Board"
+			(at -7.25 -5 0)
+			(layer "Dwgs.User")
+			(uuid "e48652ea-4f01-4ff3-a854-6493457e407a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "kikit:Board"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c17da71f-8b06-4cd6-a068-4011616cc68e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63836c57-7294-4cb7-8490-080c79642004")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e36bddab-3e16-4c0f-9ab3-2d10e17ebd1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start -1.25 -4)
+			(end -9.25 -4)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "77f59fa5-3cde-4c99-899f-7236394f62b7")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1.25 -4)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "2ce47328-0a39-4812-9c48-4bab4a1d7d6e")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 -0.5)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "6349b55c-91f3-49e7-96cb-44aea1d4ba7f")
+		)
+		(fp_line
+			(start 0 0)
+			(end 0.5 -1)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "65eef8d6-8fec-4901-b9be-73b7d9ea6af2")
+		)
+	)
 	(footprint "2x2-SAO:NEO3535_REVERSE"
 		(layer "F.Cu")
 		(uuid "094baddf-4525-49bb-bee2-9abf0579d8fc")
@@ -5970,6 +6076,112 @@
 			)
 		)
 	)
+	(footprint "kikit:Board"
+		(layer "F.Cu")
+		(uuid "927ed8bd-d841-47eb-b494-c465356a05f8")
+		(at 76.2 31.115)
+		(descr "Mark board for extraction")
+		(property "Reference" "REF_TOP"
+			(at -4.5 -5 0)
+			(layer "Dwgs.User")
+			(uuid "a070fb59-6275-4fd8-b706-bc071c31adce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Board"
+			(at -7.25 -5 0)
+			(layer "Dwgs.User")
+			(uuid "3e091b9f-ab66-48b9-b9e8-0bde67398df4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "kikit:Board"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32ee24bd-ce19-4b50-9112-93673bd767f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9867663d-71ca-4755-9481-f47b7e25f3c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad798ac3-0a59-416b-9c23-8c12ecc21e20")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start -1.25 -4)
+			(end -9.25 -4)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "5bb20f22-a397-45a1-b95a-0f42eedb5bfd")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1.25 -4)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "147c8ca4-8d86-41b5-8ff7-cada285b841d")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 -0.5)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "949457fc-2ac3-474f-b364-8ff88cc12514")
+		)
+		(fp_line
+			(start 0 0)
+			(end 0.5 -1)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "4001a62d-b441-4d47-993d-abd3e091ff0d")
+		)
+	)
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "a619c6ca-c3c0-475c-8ac5-841be2e5eeed")
@@ -8831,6 +9043,112 @@
 			(pinfunction "B")
 			(pintype "passive")
 			(uuid "e4d30211-275c-4b74-bbe8-e74bc1bde4b4")
+		)
+	)
+	(footprint "kikit:Board"
+		(layer "F.Cu")
+		(uuid "d833c576-0c2e-4a20-a1ee-6507b420e809")
+		(at 126.365 31.115)
+		(descr "Mark board for extraction")
+		(property "Reference" "REF_MIDDLE"
+			(at -4.5 -5 0)
+			(layer "Dwgs.User")
+			(uuid "b2be7636-75ae-404b-8d0d-fed4e207d61a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Board"
+			(at -7.25 -5 0)
+			(layer "Dwgs.User")
+			(uuid "29245271-613f-4af0-8183-a65c6d9f84cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "kikit:Board"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0e2266f-92ed-476f-b21b-b2e82b465e2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cb13fbe-714b-49e8-91f7-bdf0afd77a31")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1f2cbf6-f248-47b9-9d0d-e98a792cf999")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start -1.25 -4)
+			(end -9.25 -4)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "64ee7eac-d032-4700-8747-8fc29068cc9a")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1.25 -4)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "bc445b1c-c6c5-410b-bd11-06446ea61765")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 -0.5)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "896cd548-ab63-44cf-912c-eb1167d34ca9")
+		)
+		(fp_line
+			(start 0 0)
+			(end 0.5 -1)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "84d46dea-da3b-476b-bcc6-4531050004f0")
 		)
 	)
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
